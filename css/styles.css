@@ -1,0 +1,71 @@
+:root{
+    --gris-claro:  #f5f5f5;;
+    --azul: #2563eb;
+    --azul-mas-oscuro: #1d4ed8;
+    --gris: #646060;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--gris-claro);
+    color: var(--gris);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.portada{
+    padding-top: 100px;
+    text-align: center;
+}
+.portada-contenido {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.servicios{
+    text-align: center;
+}
+.por-que-elegirme{
+    text-align: center;
+}
+.contacto{
+    text-align: center;
+}
+
+.portada h1{
+     margin-bottom: 10px;
+     font-size: 2.5rem;
+}
+
+.portada h2 {
+  margin-bottom: 25px;
+  color: #555;
+  font-weight: 400;
+}
+.boton-cta:hover{
+    background-color: var(--azul-mas-oscuro);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.boton-cta{
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: var(--azul);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(112, 214, 255, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+section {
+  padding: 60px 20px;
+}
